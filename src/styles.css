@@ -1,0 +1,190 @@
+:root {
+  --hero-color: #f9f7fe;
+  --default-font-family: "Roboto Slab", serif;
+  --accent-color: #6c63ff;
+  --font-sans-serif: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+footer {
+  margin: 80px 0 20px 0;
+}
+
+i {
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 20px 40px;
+  color: black;
+}
+
+i:hover {
+  color: var(--accent-color);
+}
+
+.about-pic {
+  width: 450px;
+}
+
+.app-info {
+  line-height: 2;
+}
+
+.btn-app-info {
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  line-height: 1;
+  margin-top: 30px;
+}
+
+.btn-app-info:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid var(--accent-color);
+}
+
+.btn-branding {
+  background-color: var(--accent-color);
+  color: var(--hero-color);
+  line-height: 1;
+}
+
+.btn-branding:hover {
+  background-color: var(--accent-color);
+  color: black;
+  line-height: 1;
+}
+
+.contact-box {
+  padding: 30px 60px 15px 60px;
+  background-color: var(--hero-color);
+  margin: 30px 240px;
+}
+
+.contact-box h3 {
+  font-size: 50px;
+  line-height: 1;
+}
+
+.contact-box p {
+  font-size: 18px;
+}
+
+.contact-mail {
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-mail:hover {
+  color: var(--accent-color);
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h4 {
+  opacity: 0.7;
+}
+
+.content-container {
+  padding: 80px 20px;
+}
+
+.content-container-work {
+  padding: 80px 20px 20px 20px;
+}
+
+.footer-contact {
+  padding-top: 170px;
+}
+
+.fire:hover {
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  background: var(--hero-color);
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.logo {
+  width: 150px;
+  height: 42px;
+}
+
+.navbar {
+  font-family: var(--font-sans-serif);
+}
+
+.navbar-logo {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.project-description {
+  text-align: start;
+  padding: 100px 60px;
+}
+
+.project-description h3 {
+  font-size: 50px;
+}
+
+.sm-heading {
+  font-size: 64px;
+  line-height: 80px;
+  margin: 4px;
+}
+
+@media (max-width: 768px) {
+  .project-description {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero h1,
+  .content- {
+    font-size: 64px;
+  }
+
+  .hero h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .sm-heading {
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .content-container-work {
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+}
