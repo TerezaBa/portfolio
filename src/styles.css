@@ -152,6 +152,46 @@ i:hover {
   margin: 4px;
 }
 
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex: 1 1 400px;
+  padding: 20px;
+}
+
+@media (min-width: 1400px) {
+  /* .flex-wrapper {
+    flex-direction: column;
+  } */
+
+  .flex-item {
+    flex: 1 1 auto;
+    padding: 20px;
+  }
+
+  .flex-item1 {
+    order: 1;
+  }
+  .flex-item2 {
+    order: 2;
+  }
+  .flex-item3 {
+    order: 3;
+  }
+  .flex-item4 {
+    order: 4;
+  }
+  .flex-item5 {
+    order: 5;
+  }
+  .flex-item6 {
+    order: 6;
+  }
+}
+
 @media (max-width: 768px) {
   .project-description {
     text-align: center;
